@@ -1,0 +1,29 @@
+body{
+    background-color: #9CEE59;
+    color: black;
+}
+
+a{
+    color: #999999;
+}
+
+.table{
+    width: 980px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #509050;
+}
+
+#belsoTabla{
+    width: 940;
+    margin: 0px;
+    padding: 1px;
+    background-color: white;
+}
+
+.masodikSor{
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
