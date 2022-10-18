@@ -1,0 +1,13 @@
+body{
+    background-image: url(hatter.png);
+    color: white;
+    }
+
+a:link, a:visited, a:hover, a:active {
+     color: #C0C0C0;
+     }
+
+.tabla{
+    height: 1000px;
+    
+}     
