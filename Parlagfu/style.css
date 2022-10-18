@@ -3,21 +3,22 @@ body{
     color: black;
 }
 
-a{
-    color: #999999;
+a:link, a:visited, a:hover, a:active {
+   color: #999999;
 }
 
 .table{
     width: 980px;
     margin: 0px auto;
-    padding: 0px;
     background-color: #509050;
+    border: none;
 }
 
 #belsoTabla{
-    width: 940;
-    margin: 0px;
-    padding: 1px;
+    width: 940px;
+    margin: 0px auto;
+    border-spacing: 1px;
+    border: none;
     background-color: white;
 }
 
@@ -30,4 +31,8 @@ a{
 
 .gyom{
     float: right;
+}
+
+.vastag{
+    font-weight: bold;
 }
