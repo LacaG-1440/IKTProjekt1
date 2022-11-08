@@ -15,6 +15,7 @@
     transform: rotate(5deg);
     border-radius: 10px;
     border-style: solid;
+    float: right;
 }
 input{
     font-family:cursive; 
