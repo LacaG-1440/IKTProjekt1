@@ -5,10 +5,13 @@
     border-width: 20px;
     text-align: justify;
     width: 70%;
-    
+    margin: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(hatter.jpg);
 }
 .ritka{
-    
+    letter-spacing: 4px;
 }
 #kep{
     width:40%;
@@ -19,6 +22,8 @@
     border-radius: 10px;
     border-style: solid;
     float: right;
+    border: 3px;
+    margin: 30px;
 }
 input{
     font-family:cursive; 
@@ -27,9 +32,10 @@ input{
 }
 body{
     font-family: cursive;
-    background-image: url(hatter.jpg);
 }
 
 ul{
     list-style-type: square;
+    font-weight:bold;
+    font-style: italic;
   }
