@@ -47,4 +47,17 @@ def feladat3():
     except:
         print("Nem jó formátum.")
 
-feladat3()
+#feladat3()
+
+def ciklus1():
+    for i in range(1,11):
+        if(i%2==0):
+            print (i)
+
+#ciklus1()
+
+def ciklus2():
+    for i in reversed(range(1,11)):
+        print (i)
+
+ciklus2()
