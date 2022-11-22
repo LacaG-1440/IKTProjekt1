@@ -59,5 +59,39 @@ def ciklus1():
 def ciklus2():
     for i in reversed(range(1,11)):
         print (i)
+        
+#ciklus2()
 
-ciklus2()
+def ciklus3():
+    for i in range(10,0,-1):
+        if i%2!=0:
+            print (i)
+#ciklus3()
+
+def ciklus4():
+    number=int(input("Kérem az ismétlések számát"))
+    text=input("Kérem az ismétlődő szöveget")
+
+    for i in range(number):
+        print(text)
+#ciklus4()
+
+def ciklus5():
+
+    number=1
+
+    while number%2!=0:
+        number=int(input("Kérek egy számot"))
+
+#ciklus5()
+
+def ciklus6():
+    db=0
+    for i in range(20):
+        rnd=random.randrange(1,13)
+        if (rnd%3==0):
+            print(rnd)
+            db=db+1
+    
+    print("A 3-mal osztható számok száma: "+str(db))
+ciklus6()
