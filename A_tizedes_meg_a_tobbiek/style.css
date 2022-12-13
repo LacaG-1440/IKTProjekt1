@@ -1,13 +1,12 @@
 body{
     background-image: url(hatter.png);
-    color: white;
-    }
+    color: #FFFFFF;
+}
 
-a:link, a:visited, a:hover, a:active {
-     color: #C0C0C0;
-     }
+a:link,a:active,a:hover,a:visited{
+    color:#C0C0C0
+}
 
-.tabla{
-    height: 1000px;
-    
-}     
+.cimKozepre{
+text-align: center;
+}
