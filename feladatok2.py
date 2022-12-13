@@ -94,9 +94,9 @@ def teszt5():
     def progi(N,M):
         for i in range(N):
             for j in range(M):
-                print(",",end="")
+                print("*",end="")
             print()
 
     progi(N_Param,M_Param)
 
-#teszt5()
+teszt5()
