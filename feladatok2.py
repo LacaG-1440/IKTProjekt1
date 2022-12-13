@@ -55,7 +55,8 @@ def teszt3():
     szam=int(input("Írd be a számot: "))
 
     for i in range(int(szam/2)):
-        print("01")
+        print("0")
+        print("1")
     if szam % 2 == 1:
         print("0")
 
