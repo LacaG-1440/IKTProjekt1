@@ -7,8 +7,6 @@ def feladat1():
     for i in range(3):
         tomb.append(int(input("Kérek egy számot")))
 
-    #print(min(tomb))
-
     tomb.sort()
     print(tomb[0])
 
@@ -161,4 +159,4 @@ def feladat7():
     for i in range(2):
         print(tomb[i])
 
-feladat7()
+#feladat7()
